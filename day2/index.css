@@ -1,0 +1,74 @@
+.uber-btn{
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+}
+
+.amazon-btn{
+  background-color: rgb(255,216,20);
+  border: none;
+  padding: 7px 30px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.github-btn{
+  color: white;
+  background-color: rgb(46,164,79);
+  border: none;
+  padding: 8px 13px;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.get-started-btn{
+  color: white;
+  background-color: rgb(121,82,179);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 2px;
+  margin-right: 10px ;
+}
+
+.download-btn{
+  background-color: rgb(187, 195, 202);
+  border: solid 1px black; /* style width and color*/
+  padding: 8px 15px;
+  border-radius: 2px;
+}
+
+.linkedin-apply{
+  color: white;
+  background-color: rgb(10, 102, 194);
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.linkedin-save{
+  color: rgb(10, 102, 194);
+  background-color: white;
+  padding: 7px 15px;
+  border-radius: 20px;
+  border: solid 1px rgb(10, 102, 194);
+}
+
+.stock{
+
+}
+
+.buy-btn{
+  background-color: rgb(255,164,28);
+  border: none;
+  padding: 7px 30px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.stock{
+  color: rgb(0, 118, 0);
+}
