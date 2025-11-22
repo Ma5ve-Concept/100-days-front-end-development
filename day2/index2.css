@@ -2,7 +2,11 @@
   background-color: black;
   color: white;
   padding: 10px;
+  cursor: pointer;
+}
 
+.uber-btn:hover{
+  opacity: 0.7;
 }
 
 .amazon-btn{
@@ -11,6 +15,14 @@
   padding: 7px 30px;
   border-radius: 20px;
   font-size: 12px;
+}
+
+.amazon-btn:hover{
+  background-color: rgb(240, 203, 16);
+}
+
+.github-btn:hover{
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
 }
 
 .github-btn{
@@ -32,11 +44,21 @@
   margin-right: 10px ;
 }
 
+.get-started-btn:hover{
+  background-color: rgb(106, 69, 161);
+}
+
 .download-btn{
-  background-color: rgb(187, 195, 202);
-  border: solid 1px black; /* style width and color*/
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(172, 172, 172); /* style width and color*/
   padding: 8px 15px;
   border-radius: 2px;
+  transition: color .5s, background-color 0.5s;
+}
+
+.download-btn:hover{
+  background-color: rgb(172, 172, 172);
+  color: white;
 }
 
 .linkedin-apply{
@@ -48,13 +70,24 @@
   margin-right: 10px;
 }
 
+.linkedin-apply:hover{
+  background-color: rgb(8, 89, 170);
+}
+
 .linkedin-save{
   color: rgb(10, 102, 194);
   background-color: white;
   padding: 7px 15px;
   border-radius: 20px;
   border: solid 1px rgb(10, 102, 194);
+  font-weight: 600;
 }
+
+.linkedin-save:hover{
+  border-width: 2px;
+  background-color: rgba(10, 102, 194, 0.1);
+}
+
 
 .buy-btn{
   background-color: rgb(255,164,28);
@@ -65,6 +98,26 @@
   margin-left: 10px;
 }
 
+.buy-btn:hover{
+  opacity: 0.8;
+}
+
+.buy-btn:active{
+  opacity: 0.6;
+}
+
 .stock{
   color: rgb(0, 118, 0);
+}
+
+a:hover{
+  color: red;
+}
+
+.amazon-btn:{
+  opacity: 0.8;
+}
+
+.amazon-btn:active{
+  opacity: 0.6;
 }
