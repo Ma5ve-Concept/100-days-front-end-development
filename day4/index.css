@@ -1,0 +1,99 @@
+.name, .email{
+  border-radius: 5px;
+  border: solid 1.6px black;
+  padding: 7px 15px;
+}
+
+.name{
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+p{
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.google-search-box{
+  border: none;
+  padding: 15px 20px;
+  width: 250px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  ;
+}
+
+.first-name{
+  display: inline-block;
+  padding: 7px 15px;
+  width: 100px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: solid 2px rgb(100, 100, 100);
+}
+
+.email-input{
+  display: block;
+  padding: 7px 15px;
+  width: 237px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: solid 2px rgb(100, 100, 100);
+}
+
+.sign-up{
+  border: none;
+  width: 270px;
+  padding: 10px 15px;
+  background-color: rgb(93, 93, 255);
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.pick-up{
+  display: block;
+  padding: 10px 15px;
+  width: 237px;
+  margin-bottom: 5px;
+  border: none;
+  background-color: rgb(227, 227, 227);
+}
+
+.destination{
+  display: block;
+  padding: 10px 15px;
+  width: 237px;
+  margin-bottom: 5px;
+  border: none;
+  background-color: rgb(227, 227, 227);
+  margin-bottom: 20px;
+}
+
+.request{
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  margin-right: 10px;
+}
+
+.schedule{
+  border: none;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(227, 227, 227);
+  margin-right: 10px;
+  font-weight: 600;
+}

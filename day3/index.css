@@ -48,6 +48,7 @@
   border: none;
   border-radius: 50px;
   color: white;
+  display: block;
 }
 
 .tweet-img{
@@ -55,4 +56,26 @@
   height: 50px;
   object-fit: cover;
   border-radius: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-left: 50px;
 }
+
+div p{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tweet-btn{
+  padding: 8px 15px;
+  border: none;
+  background-color: rgb(54, 113, 232);
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+
+
